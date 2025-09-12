@@ -1,0 +1,2 @@
+Variation run: ULIP zero-shot on ModelNet40 with batch_size=128
+Command: python main_zero_shot.py --dataset modelnet40 --pc_root data/ModelNet40_PC --text_root data/texts --ckpt pretrained/ulip_ckpt.pth --batch_size 128

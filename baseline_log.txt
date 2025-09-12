@@ -1,0 +1,2 @@
+Baseline run: ULIP zero-shot on ModelNet40
+Command: python main_zero_shot.py --dataset modelnet40 --pc_root data/ModelNet40_PC --text_root data/texts --ckpt pretrained/ulip_ckpt.pth
