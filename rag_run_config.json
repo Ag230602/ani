@@ -1,0 +1,22 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "embedding_models_tested": [
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "intfloat/e5-small-v2"
+  ],
+  "retriever_k": 4,
+  "vectorstore_persist_dir": "chroma_db_minilm",
+  "llm_used": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "chunk_experiments": [
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 100
+    },
+    {
+      "chunk_size": 300,
+      "chunk_overlap": 50
+    }
+  ],
+  "notes": "Run on your project docs in data/uploads/. GEMINI_API_KEY optional for Gemini LLM."
+}

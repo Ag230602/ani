@@ -1,0 +1,22 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "retriever_k": 4,
+  "embedding_model": "text-embedding-004",
+  "generation_model": "gemini-1.5-flash",
+  "mini_experiments": [
+    {
+      "name": "chunk_sensitivity",
+      "settings": [
+        {
+          "size": 500,
+          "overlap": 100
+        },
+        {
+          "size": 300,
+          "overlap": 50
+        }
+      ]
+    }
+  ]
+}

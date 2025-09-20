@@ -1,0 +1,17 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "retriever_k": 4,
+  "embedding_model": "text-embedding-004",
+  "generation_model": "gemini-1.5-flash",
+  "chunk_settings": [
+    {
+      "size": 500,
+      "overlap": 100
+    }
+  ],
+  "fine_tuning": {
+    "A_simulated_memory": true,
+    "B_lora_peft": "optional"
+  }
+}
