@@ -1,0 +1,35 @@
+{
+  "embedding_model_text": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_model_image": "openai/clip-vit-base-patch32",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "retriever_k": 4,
+  "rrf": {
+    "k": 60
+  },
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "mmr": {
+    "lambda": 0.7,
+    "fetch_k": 20,
+    "mmr_k": 5
+  },
+  "compression": {
+    "method": "textrank",
+    "target_chars": 800
+  },
+  "guardrails": {
+    "enforce_citations": true,
+    "pii_redaction": true,
+    "refusal_template": "I can\u2019t answer that safely. Here\u2019s why: {reason}."
+  },
+  "chunking": {
+    "chunk_size": 500,
+    "chunk_overlap": 100
+  },
+  "multimodal": {
+    "captioner": "Salesforce/blip2-opt-2.7b",
+    "index_type": "concat_text_image"
+  }
+}
