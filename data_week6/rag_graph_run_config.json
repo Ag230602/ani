@@ -1,0 +1,19 @@
+{
+  "data_dir": "./data_week6",
+  "corpus_csv": "./data_week6/corpus.csv",
+  "graph_rag": {
+    "hops": 1,
+    "max_spans": 24,
+    "use_spacy": true
+  },
+  "retriever": {
+    "top_k": 5,
+    "sklearn": true
+  },
+  "ui": {
+    "show_graph": true,
+    "prefer_graph_in_multi": true
+  }
+}
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force; python -m venv venv; .\venv\Scripts\Activate.ps1; python -m pip install --upgrade pip; pip install streamlit pandas numpy matplotlib networkx requests scikit-learn spacy; python -m spacy download en_core_web_sm; streamlit run "C:\Users\Adrija\Downloads\graph_rag_app_full.py"
+

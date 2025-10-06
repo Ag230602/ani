@@ -1,0 +1,6 @@
+doc_id,text
+doc1,Method X was introduced by Author A and compared on Dataset D1 with F1=0.78.
+doc2,Author A collaborated with Author B; Method X improved Metric F1 on D1.
+doc3,Dataset D2 was used to evaluate Method Y introduced by Author C.
+doc4,Paper P3 applies Method X to Dataset D2 and reports Accuracy 0.82.
+doc5,"Survey S1 links Method Y, Dataset D2, and Metric AUC."

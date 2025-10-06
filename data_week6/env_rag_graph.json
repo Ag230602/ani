@@ -1,0 +1,20 @@
+{
+  "python": ">=3.9",
+  "packages": [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "networkx",
+    "streamlit",
+    "spacy (optional)",
+    "scispacy (optional)",
+    "requests (for FEMA API)",
+    "sentence-transformers (optional)",
+    "langchain (optional)",
+    "openai (optional)"
+  ],
+  "notes": [
+    "If you want spaCy, run: python -m spacy download en_core_web_sm",
+    "For scispaCy: pip install scispacy && pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz"
+  ]
+}
