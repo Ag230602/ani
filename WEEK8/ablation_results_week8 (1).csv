@@ -1,0 +1,5 @@
+Variant,Latency (s),Accuracy,Visualization Quality,Speech Accuracy,Notes
+Baseline_TextOnly,1.21,0.82,N/A,N/A,Week 7 QA only (Irma context)
+With_Speech,1.63,0.82,N/A,0.93,Whisper base + gTTS speech roundtrip
+With_Visualization,1.38,0.85,Good,N/A,"Rule-based NL→Plot, matplotlib"
+Full_Multimodal,1.92,0.86,Very Good,0.91,"Integrated speech, viz, QA with router"

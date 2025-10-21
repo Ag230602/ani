@@ -1,0 +1,13 @@
+{
+  "python": ">=3.10",
+  "pip": [
+    "SpeechRecognition",
+    "openai-whisper",
+    "gTTS",
+    "pandas",
+    "matplotlib",
+    "streamlit",
+    "pyttsx3"
+  ],
+  "notes": "Install Whisper weights on first run; if Whisper is unavailable, the pipeline falls back to SpeechRecognition."
+}

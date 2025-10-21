@@ -1,0 +1,68 @@
+{
+  "project": "Florida Disaster Education (Week 6/7 RAG)",
+  "qa_backend": {
+    "type": "http",
+    "url": "http://127.0.0.1:8000/qa",
+    "timeout_s": 30
+  },
+  "audio": {
+    "stt_engine": "whisper",
+    "whisper_model": "base",
+    "tts_engine": "gtts",
+    "sample_rate": 16000
+  },
+  "viz": {
+    "dataset_csv": "/mnt/data/week8/data/florida_metrics_sample.csv",
+    "allowed_columns": [
+      "year",
+      "accuracy",
+      "metric_a",
+      "metric_b",
+      "damages_billion"
+    ],
+    "nl_templates": [
+      "plot accuracy by year",
+      "show trend for metric b",
+      "compare metric_a and metric_b over year"
+    ]
+  },
+  "router": {
+    "keywords": {
+      "speech": [
+        "record",
+        "mic",
+        "microphone",
+        "audio",
+        "speak",
+        "say"
+      ],
+      "viz": [
+        "plot",
+        "chart",
+        "graph",
+        "visualize",
+        "trend",
+        "show"
+      ],
+      "qa": [
+        "what",
+        "how",
+        "why",
+        "when",
+        "where",
+        "explain",
+        "summarize"
+      ]
+    },
+    "guardrails": {
+      "blocklist": [
+        "self-harm",
+        "explosive",
+        "illegal",
+        "malware",
+        "hate"
+      ],
+      "max_input_chars": 2000
+    }
+  }
+}
