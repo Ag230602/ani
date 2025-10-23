@@ -1,0 +1,6 @@
+Variant,Accuracy,Latency_s,Notes
+Baseline,0.7,3.2,RAG only
+Graph-RAG,0.87,3.8,Structured reasoning
+Multi-Hop,0.92,4.5,Knowledge chaining
+Voice-LLM,0.93,4.9,Interactive responses
+Final App,0.96,5.2,Integrated visualization + dialogue

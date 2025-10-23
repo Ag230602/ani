@@ -1,0 +1,6 @@
+{
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "train_steps": 300,
+  "controlnet": "lllyasviel/sd-controlnet-depth",
+  "svd_model": "stabilityai/stable-video-diffusion-img2vid-xt"
+}

@@ -1,0 +1,12 @@
+{
+  "project": "Florida_Disaster_AI_FinalIntegration",
+  "week": 8,
+  "python": "3.10.12",
+  "key_packages": [
+    "streamlit",
+    "fastapi",
+    "diffusers"
+  ],
+  "hardware": "CPU runtime",
+  "focus": "Voice LLM + Conversational Visualization + Final Deployment"
+}

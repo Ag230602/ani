@@ -1,0 +1,6 @@
+Variant,Accuracy,Latency_s,Notes
+Baseline_RAG,0.7,3.2,Text-only retrieval
+Graph-RAG,0.87,3.8,Entity link reasoning
+Multi-Hop,0.92,4.5,Causal links
+LoRA+ControlNet,0.94,5.3,Visual generation
+SVD_Final,0.95,5.6,Full multimodal pipeline

@@ -1,0 +1,6 @@
+{
+  "graph_construction": "entity extraction from FEMA + NOAA",
+  "multi_hop_QA": true,
+  "accuracy_gain": "0.70\u21920.92",
+  "frontend": "Streamlit QA interface"
+}

@@ -1,0 +1,12 @@
+{
+  "project": "Florida_Disaster_AI_GraphRAG",
+  "week": 6,
+  "python": "3.10.12",
+  "key_packages": [
+    "transformers",
+    "networkx",
+    "streamlit"
+  ],
+  "hardware": "CPU/Colab",
+  "focus": "Graph-RAG and Multi-Hop reasoning"
+}

@@ -1,0 +1,4 @@
+Variant,Accuracy,Latency_s,Notes
+Baseline_RAG,0.7,3.2,Single-hop textual retrieval
+Graph-RAG,0.87,3.8,Entity link reasoning
+Multi-Hop,0.92,4.5,Cause-effect reasoning over graph

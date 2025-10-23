@@ -1,0 +1,12 @@
+{
+  "project": "Florida_Disaster_AI_VideoGen",
+  "week": 7,
+  "python": "3.10.12",
+  "key_packages": [
+    "diffusers",
+    "accelerate",
+    "fastapi"
+  ],
+  "hardware": "CPU runtime",
+  "focus": "LoRA + ControlNet + Stable Video Diffusion"
+}

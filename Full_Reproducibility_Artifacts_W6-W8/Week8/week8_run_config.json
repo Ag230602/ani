@@ -1,0 +1,6 @@
+{
+  "voice_module": "SpeechRecognition + pyttsx3",
+  "viz_module": "Plotly + Matplotlib",
+  "deployment": "Streamlit Cloud",
+  "integration": "Unified app with backend API"
+}
