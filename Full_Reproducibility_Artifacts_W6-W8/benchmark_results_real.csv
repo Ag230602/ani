@@ -1,0 +1,6 @@
+Metric,Value
+Structural Similarity (SSIM),0.09505
+Peak Signal-to-Noise Ratio (PSNR),7.720782
+"Mean Squared Error (MSE, lower better)",0.169014
+Color Histogram Correlation,0.023747
+Edge Overlap (IoU),0.065356
