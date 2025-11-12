@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\Adrija\\OneDrive\\Documents\\Week9\\irma_satellite_simulation.mp4",
+  "out": "annotated.mp4",
+  "motion": 1,
+  "debris": 1,
+  "water": 1,
+  "storm_eye": 1,
+  "yolo": 1,
+  "vlm": 1,
+  "stride": 1,
+  "batch": 8,
+  "show": 1
+}

@@ -1,0 +1,2 @@
+order_correct,BLUE_duration_est_s,GREEN_duration_est_s,RED_duration_est_s,duration_MAE_s,reps_est_GREEN,pred_next_motion,vlm_stub_caption
+False,1.1,2.5,1.4,0.2666666666666666,0,moving left,Stub: observed color step changes; mean brightness 102.7. Likely middle step includes repetitive lateral motion.
