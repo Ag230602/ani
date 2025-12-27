@@ -1,0 +1,14 @@
+Benchmark Summary: Forecasting Visualization Updates
+---------------------------------------------------
+Total updates (events): 140
+Total runtime (s): 0.001057
+Throughput (updates/sec): 132462.86
+Mean ingest time (ms): 0.0005
+Mean end-to-end time per update (ms): 0.0067
+Mean Scenario A: Naive Trend_ms per update (ms): 0.0030
+Mean Scenario B: EMA+Slope_ms per update (ms): 0.0028
+
+Interpretation:
+- End-to-end time captures ingest + per-model update/inference + logging.
+- Uncertainty bands (±1σ) are derived from rolling residual variability.
+- Multiple scenarios enable comparison of trajectories under different temporal dynamics.
